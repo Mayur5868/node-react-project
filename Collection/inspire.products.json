@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "67fcb4e88c89d2acfe56f7d8"
+  },
+  "name": "Iphone 16",
+  "price": "90000",
+  "category": "Mobile",
+  "company": "Apple",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fde9a8b1fd2ee288b4172b"
+  },
+  "name": "I phone 15 pro",
+  "price": "90600",
+  "category": "mobile",
+  "company": "Apple",
+  "__v": 0,
+  "userId": "67e4ea8b2da50e0d29bc4e66"
+},
+{
+  "_id": {
+    "$oid": "67fde9cfb1fd2ee288b4172f"
+  },
+  "name": "Sony TV OLED",
+  "price": "95000",
+  "category": "Television",
+  "company": "Sony",
+  "__v": 0
+}]

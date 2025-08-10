@@ -1,0 +1,98 @@
+[{
+  "_id": {
+    "$oid": "67e4ea8b2da50e0d29bc4e66"
+  },
+  "name": "mayur",
+  "email": "mayur@gmail.com",
+  "password": "5868"
+},
+{
+  "_id": {
+    "$oid": "67e4f0d0909711ce18be60f8"
+  },
+  "name": "Chotadon",
+  "email": "chotadon@gmail.com",
+  "password": "1234",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e94764b78504e49a99474b"
+  },
+  "name": "Bhumika",
+  "email": "bhumika@gmail.com",
+  "password": "5869",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ea3761b05c0088ce9a76c4"
+  },
+  "name": "raju",
+  "email": "raju@gmail.com",
+  "password": "5874",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ea3ba9b05c0088ce9a76c6"
+  },
+  "name": "shiva",
+  "email": "shiva@gmail.com",
+  "password": "7894",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67eb89446cdfbde243814458"
+  },
+  "name": "kevin",
+  "email": "kevin@gmail.com",
+  "password": "1234",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67eb8ab26cdfbde24381445a"
+  },
+  "name": "nita",
+  "email": "nita@gmail.com",
+  "password": "4563",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ecd710abe6f7e0e1d3274f"
+  },
+  "name": "chotadon",
+  "email": "chotadon@gmail.commmmmmm",
+  "password": "1234",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ecd9af203ac4c254da1587"
+  },
+  "name": "Mayur",
+  "email": "Mayur@gmail.com",
+  "password": "456",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ecd9f0203ac4c254da1589"
+  },
+  "name": "Mayur",
+  "email": "Mayur@gmail.com",
+  "password": "786",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6805e63b1c3d9227ae6adb9c"
+  },
+  "name": "",
+  "email": "",
+  "password": "",
+  "__v": 0
+}]
