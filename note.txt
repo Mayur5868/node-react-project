@@ -1,0 +1,124 @@
+step 1: npm init
+step 2 npm i express
+step 3:npm i nodemon
+step 4 : check the app is working code in index.js (get method) (localhost:5000)
+step 5 : npx create-react-app front_end
+step 6 : cd folder_name
+step 7 : npm start
+step 8  : app.js ( o/p check )
+step 9 : npm install react react-dom (after instll agian npm start )
+step 10 : add boottarp css nd js in index.html
+step 11 : create new file nav.js (add css in app.js)
+step 12: create footer.js (add css in app.js)
+stpe 13: create signUp.js file also add css .. 
+step 14 : import (add) sigup in app.js file  (app.js and nav.js)
+step 15 : In a signup page create  from Signup  (name , passwprd button)(also add css)
+step 15 :  in sigup page  using  usestate (make const array ) 
+step 16:  make folder_name backend 
+step 17 : install mongodb then setup mongodb (commandprompt check) 
+step 18 : in mongodb (datababe ) create db name is inspire and collection student. aslo  insert  data 
+stpe 19 : cd folder_name backend 
+step 20: insatll npm init, express ,  nodemon , mongodb ,mongoose
+step 21 :  make file index.js (mongoose connection (database) show the o/p in terminal )
+step 22: in mongodb 2nd collection name users and also  insert data
+step 23: in a backend folder create db folder and create config.js file
+step 24 : config.js ( mongoose connection code )
+step 25 : index.js file  ( link define (db/config) )
+step 26 : in db folder file create user.js (code written database show )
+step 27: in index.js file post method use 
+step 28: install postman (npm i postman)
+step 29 : inde.js  postapi  method check in postman ( http://localhost:5000/register) o/p api in progress...
+step 30 : postman  insert data  post method (json data )  (postman body/ raw method) 
+step 31 : index.js insert data into database with post api (async and await use )  
+step 32 : install cors in backend ..  npm install cors 
+step 33 : backend index.js ==> code written cors (erro define)
+step 34 :  front_end folder signUp.js (add code  json formate )
+step 35 :   API integeration signUp page ( add userDetails(name:name email:email etc..) use of let) also add body:json.stringfy(userDetails) 
+step 36: backend -> back_end/package.json .  in a scri pts add => "scripts"{ "start": "nodemon"}
+step 37: in  terminal back_end folder npm start
+step 38: terminal +sign (open 2nd terminal ) for front_end folder [ npm start] 
+step 39: check signUp page  -> inspect -> network -> o/p register  type->fetch 
+step 40: front_end -> signUp code add navigate (useNavigate()) and if condi [ store result in navigate]
+setup 41: in signUp page add  [storage data user]  localStorage.setItem("user",JSON.stringify(result))
+step 42 inspect ->   application  --> storage-> localStorage folder/ link [http://localhost:3000]
+step 43: run signUppage (add data)  -->check in application (step 42 )
+step 44 : front_end => create file ->  in components folder - > PrivateComponent.js 
+step 45 :  PrivateComponent file --> import  a navigate and outlet 
+step 46:  front_end -> app.js  -> import PrivateComponent  file
+step 47:    app.js  --> function ( <Route element={<PrivateComponent/>}>  all page  in PrivateComponent  </Route>)  only signUp page out  
+step 48: PrivateComponent file -->  make variable using const auth = localStorage.getItem('user'); also     return auth?<Outlet/>:<Navigate to="/SignUp" />
+stpe 49 : signUp page (crome) -> application ->  localStorage folder/ link [] store data  show] 
+step 50: above store data delete (right click -> delete) and reload page 
+step 51 : crome redirect signup page (open project)
+step 52 : PrivateComponent file ->  copy   const auth = localStorage.getItem('user' )  --> paste in signUp.js file use of useEffect hook (paste here) 
+step 53: nav.js file in add in nav function  -> const auth = localStorage.getItem('user')
+step 54 : reload the page ()
+step 55:  nav.js file auth link for logout link ==> <li> {auth ?<Link onClick={logout} to="/logout" >Logout </Link> : <Link to="/SignUp" >SignUp </Link>} </li> //redirect log out page *
+step 56 :nav.js => logout to signUp page redirect = >  <li> {auth ?<Link onClick={logout} to="/SignUP" >Logout </Link> : <Link to="/SignUp" >SignUp </Link>}  </li> */} {/* click logout redirect  SignUP page  */}
+step 57 : in ouput click logout => redirect sigup page
+step 58: back_end => index.js =>  //register code using post method => async(await) use
+stpe 59 : back_end => index.js =>  //login code using post method => o/p check postman (http://localhost:5000/login)
+stpe 60 :  back_end => index.js =>  //login code using post method => async(await) finone data  (database)   o/p id,name,email,passwprd
+stpe 61 : back_end => index.js =>  //login code  password select => let user = await User.findOne(req.body).select("-password"); o/p pwd not show
+step 62:if else condiction (user find  or user no found )  o/p postman wrong id give op=>no user found
+step 63 :postman check =>  htt back_end => index.js => p://localhost:5000/register o/p =>show user info
+step 64:  back_end => index.js => //register code  => add delete result.pwd    o/p postman pwd not show  enter cretae in database
+step 65 : LOGIN components
+step 66: front_end => make new file in components folder => login.js file create 
+step 67: app.js => import and rout login file  o/p chek login page
+step 68: nav.js file ==> navigate('/signUp') in const  logout  ( ) also add in  return   login link
+step 69: login.js => cretae loginlogin page  ==> also add  app.css  apply css  [classnamme] using css (create email , password , button )  => create simple page [email,ped, buuton]
+step 70:  login.js => use const , usestate , handllet and return onlcik evnt use {write theri code}
+step 71 : login.js => const handleLogin =()=>{} and also put button onClick=handleLogin => o/p  login => consle  => email nd password also check [postman]
+step 72: login.js =>  fetch data use of let   (json formate convert )   => o/p consle => id email (wrong email & pwd so the error)
+step 73: login.js => use if else condition (navigate )
+step 74: nav.js [auth ] onclick event { add fragement <> signUp and Login </> }
+step 75:  in localhost navbar only see login nd sigup (cdoe write in nav.js)
+step 76: nav.js => add auth make 2 ul  1. <ul> menu name <ul> 2. <ul> login and signUp <ul > aslo add  classnamme=nav-right in 2nd ul also add css
+step 77 :  nav.js => onclick={logot} add json formate(database name inclcude) == > <Link onClick={logout} to="/SignUP" >Logout ({JSON.parse(auth).name})</link>
+step 78: login page => add login deatil then see the name navbar 
+step 79: add logo  => nav.js also set css
+step 80: in mongodb database =>inspire folder=> make product table
+step 81: back_end => db folder => product.js file create (add code for db connection using mogoose(name,price,category,userId,company))
+step 82: back_end => index.js => add product code
+step 83: in mongodb => users table  => copyany one id   
+step 84 : postman => http://localhost:5000/add-product ==> add product data using  usre id==> name, price , category,userId (paste userid), company  [o/p show in postman body ] and show  check  add data in mongodb
+step 84 : front_end => nav.js => add link[add,update,profile](  e.g <li> <Link to="/add" >Add Poduct </Link></li>)
+step 86: front_end => components=> AddProduct.js file create (rafc)
+step 87: front_end=>AddProduct.js => design form (name,price,category,comapny) input & button also add classnamme=product and add css
+step 88: front_end=>AddProduct.js => className='addproduct_button' and add css for them [o/p  add product form]
+step 89: front_end=>AddProduct.js => add event (onchange,onlclick , setName , value) [e.g[  
+      <input className='inputbox' type="text" placeholder='Enter Product Name' onChange={(e) => { setName(e.target.value) }} value={name} /> 
+     <button onClick={addProduct} className='addproduct_button'> Add Product </button>]
+ ]
+step 90: front_end=>AddProduct.js =>usestate use[e.g  price,category,company( const [name, setName] = React.useState("");)] =>  const addProduct =()=>{ console.warn(name, price, category, company);}
+step 91: o/p show in any [google chorm]  => console => o/p [name ,price,category,comapny]
+step 92: front_end=>AddProduct.js => userid use (add both code ) o/p userid ,name,price,category,comapny shoe in console=>  
+ 3 types userid see in output
+                                              1.  // const userId =   localStorage.getItem('user');  // console.warn(userId);
+                                              2.  // const userId = JSON.parse(localStorage.getItem('user'));   //  console.warn(userId._id);
+                                              3.// const userId = JSON.parse(localStorage.getItem('user'))._id;
+step 92: front_end=>AddProduct.js  ==> using async (direct add mongodb)  => o.p sho in consle and add dirct in mongodb
+
+    const addProduct = async () => {
+        console.warn(name, price, category, company);
+        const userId = JSON.parse(localStorage.getItem('user'))._id;
+        let result = await fetch('http://localhost:5000/add-product', {
+          method: 'post',
+          body: JSON.stringify({name, price, category, company}),
+          headers: {
+            'content-Type': 'application/json'
+          }
+        });
+        result = await result.json();
+        console.warn(result);
+    }
+
+    step 93: Form Validation code (front_end=>AddProduct.js )  => check  console.warn(name);console.warn(name); return falue ; // o/p => name show in console 
+                same code add ! befor name ( console.warn(!name); )  => o/p false
+
+    step 94:AddProduct.js => add error [   const [error, setError] = React.useState(false) ]  also add if condiction (setError(true))
+     step 95: AddProduct.js => design form => add className=error ans also css (name,price,category,comapny)
+     <span className='error'> Enter Valid Name</span>
+
+    step 96: addProduct.js => erroe definr == > (name , price , category,comapny)  same CODE writtren {error && !name && <span className='error'> Enter Valid Name</span>}
